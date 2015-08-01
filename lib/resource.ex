@@ -92,8 +92,8 @@ defmodule Resource do
       end
 
       defoverridable [init: 1, handle_checkout: 3, handle_checkin: 2,
-                      handle_down: 2, handle_cancel: 1, terminate: 2,
-                      code_change: 3]
+                      handle_down: 2, handle_cancel: 1, handle_info: 2,
+                      terminate: 2, code_change: 3]
     end
   end
 
